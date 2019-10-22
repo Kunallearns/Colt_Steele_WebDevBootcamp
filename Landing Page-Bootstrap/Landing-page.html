@@ -1,0 +1,111 @@
+<!-- Observation Notes at the end -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Purrfect Match</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+  <script src="https://kit.fontawesome.com/c90d538f5c.js" crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700&display=swap" rel="stylesheet">
+
+  <style>
+    html{
+      height: 100%;
+    }
+    #content{
+      text-align: center;
+      padding-top: 25%;
+      color: white;
+      text-shadow: 1px 1px 4px gray;
+    }
+    body{
+      background-image: url(photo-1415369629372-26f2fe60c467.jpeg);
+      background-size: cover;
+      background-position: center center;
+      font-family: 'Lato', sans-serif;
+
+    }
+    h1{
+      font-weight: 700;
+      font-size: 5em;
+    }
+    hr{
+      width: 400px;
+      border-top: 1px solid #f8f8f8;
+      border-bottom: 1px solid rgba(0,0,0,0.2);
+    }
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-default  navbar-fixed-top">
+    <div class= "container">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false" aria-controls="navbar">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">Purrfect Match</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">Home <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#">Signup <i class="fas fa-user-plus"></i></a></li>
+          <li><a href="#">Login <i class="fas fa-user"></i> </a></li>
+          </ul>
+      </div> <!-- collapse ends-->
+    </div><!-- container-ends -->
+</nav>
+
+
+<div class="container">
+  <div class="row">
+    <div class= col-lg-12>
+      <div id="content">
+      <h1>Purrfect Match</h1>
+      <h3>The Only Human-feline dating App</h3>
+      <hr>
+      <button class="btn btn-default btn-lg" type="submit"><i class="fas fa-paw">  </i> Get Started!</button>
+      </div> <!-- content ends-->
+    </div><!-- col ends -->
+  </div><!-- Row ends-->
+</div><!-- Container ends-->
+
+
+
+<script type="text/jscript"src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+</body>
+</html>
+
+
+<!-- Observation Notes:
+
+1)  Bootstrap cdn used
+2)  Fontawesome icons used
+3)  Google fonts used
+4)  Jquery script added at the end
+5)  Javascript added at the end
+
+6)  HTML height kept 100%: enable the picture to stretch to the entore height and not curtail midway
+7)  #content: capsulate h1, p and button elements to adjust padding and background positioning
+8)  hr: Width adjustment and bordering
+9)  <nav class="navbar navbar-default  navbar-fixed-top">: class 'navbar-fixed-top' used to ensure the background stays intact on using the hamburger button. position: fixed;
+10)  Navbar added
+11)  HTML{height:100%} : to make the image fit the entire HTML page and not just body - Question raised - why not use height on <body>
+12)  Image size: 'background-size': cover - Image fits the entire background even if it requires cropping or expansion. Contain just wouldve had the image in the same dimensions without any adjustments. This, smaller images would lead to white empty patches and bigger images would flow outside and without focus.
+13)  Background-position: center :   The background-position CSS property sets the initial position for each background image. The position is relative to the position layer set by background-origin
+
+-->
